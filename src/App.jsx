@@ -1,18 +1,15 @@
-import CardSection from "./CardSection";
-import Footer from "./Footer";
-import Header from "./Header";
-import MainContent from "./MainContent";
+// import CardSection from "./CardSection";
+// import Footer from "./Footer";
+// import Header from "./Header";
+// import MainContent from "./MainContent";
+// import GreetingSection from "./GreetingSection";
+import CardExample from "./CardExample";
+
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
-      <Header />
-
-      <div className="flex-1">
-        <MainContent />
-        <CardSection />
-      </div>
-      <Footer />
+    <div className="min-h-screen bg-gray-50">
+      <CardExample />
     </div>
   );
 }
