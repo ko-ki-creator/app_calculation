@@ -1,11 +1,18 @@
-import JSXExample from "./JSXExample";
+import CardSection from "./CardSection";
+import Footer from "./Footer";
+import Header from "./Header";
+import MainContent from "./MainContent";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
-      <div className="max-w-2xl mx-auto">
-        <JSXExample />
+    <div className="min-h-screen flex flex-col bg-gray-50">
+      <Header />
+
+      <div className="flex-1">
+        <MainContent />
+        <CardSection />
       </div>
+      <Footer />
     </div>
   );
 }
