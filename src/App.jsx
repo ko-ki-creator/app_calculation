@@ -1,27 +1,14 @@
-// import CardSection from "./CardSection";
-// import Footer from "./Footer";
-// import Header from "./Header";
-// import MainContent from "./MainContent";
-// import GreetingSection from "./GreetingSection";
-// import CardExample from "./CardExample";
-// import ClickExample from "./ClickExample";
-// import InputExample from "./InputExample";
-// import EventExample from "./EventExample";
+import Counter from "./Counter";
 
-import FormExample from "./FormExample";
-
-
-function App() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold text-center py-8">
-          preventDefault()の例
+    <div className="min-h-screen bg-gray-50 py-8">
+      <div className="container mx-auto">
+        <h1 className="text-3xl font-bold text-center mb-8">
+          React State の練習
         </h1>
-        <FormExample />
+        <Counter />
       </div>
     </div>
   );
 }
-
-export default App;
